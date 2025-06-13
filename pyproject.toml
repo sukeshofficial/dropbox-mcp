@@ -1,0 +1,14 @@
+[project]
+name = "dropbox-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.9.0",
+    "dropbox>=11.37.0",
+    "requests>=2.28.0",
+    "python-dotenv>=1.0.0",    # Optional, helpful for managing environment variables
+    "tqdm>=4.65.0"            # Optional, for progress bars if you want during uploads/downloads
+]
